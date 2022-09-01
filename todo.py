@@ -28,7 +28,7 @@ def insert():
         iButton1.forget()
         main_window.geometry("250x120")
 
-    with open("ToDo List.txt","a") as f:
+    with open("ToDo List.dat","a") as f:
         f.write(mEntry1.get())
         f.write("\n")
 
